@@ -1,0 +1,25 @@
+.dialog a {
+  text-decoration: none;
+}
+
+.dialog {
+  display: flex;
+  align-items: center;
+  margin: 1rem 2rem 0 0;
+}
+
+.dialog img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+
+.dialogItems .dialog:hover {
+  cursor: pointer;
+  color: rgb(50, 113, 172);
+}
+
+.dialogItems .dialog.active {
+  color: rgb(9, 93, 172);
+}

@@ -1,0 +1,10 @@
+.content {
+  grid-area: con;
+  background-color: #aec0c9;
+  color: #fff;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 10px;
+  max-width: 1700px;
+  position: relative;
+}
